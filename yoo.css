@@ -1,0 +1,268 @@
+.container{
+    width: 100%;
+    height:97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+    
+}
+
+form{
+    width: 50%;
+    height: 50%;
+background-color:rgb(55, 0, 255);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+input{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding:10px 2px;
+    margin-bottom: 10px;
+    
+}
+
+button{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(26, 119, 149);
+    color: white;
+    font-size: 40px;
+    outline: none;
+}
+    
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+ul li{
+    margin-left:20px;
+    padding:30px ;
+    border-radius:10px;
+    background-color: aqua;
+    font-size: 1.8rem;
+    text-transform:capitalize;
+    cursor: pointer;
+    
+}
+
+ul li:hover{
+    background-color: antiquewhite;
+    
+}
+
+.home{
+    width:100%;
+    height:95vh;
+    background-color: aquamarine;
+    
+}
+
+ .home img{
+    width:100%;
+    height:100%;
+    object-fit:fill
+}
+
+.covercontainer{
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute ;
+    top:0;
+    
+}
+
+.cover{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+.cover h1{
+    font-size:3rem;
+}   
+
+.aboutusraper,.blograper{
+    width: 100%;
+    height: 100%;
+}
+
+
+.aboutuscontainer,.blogcontainer{
+    width: 95%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content : space-between ;
+}
+
+.aboutusimgcontainer{
+width: 50%;
+height: 95vh;
+
+
+}
+
+.aboutusimgcontainer img,.blogimgcontainer img {
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+
+.aboutuscontent p,.blogcontainercontent p{
+  font-size: 1.8rem;  
+}
+
+.contactuscontainer{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.contactusraper{
+    width: 1000px;  
+    height:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+
+.contactusform{
+    width:70% ;
+    height:73% ;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contactusform h1{
+font-size: 1.8rem;
+text-align: center;
+text-transform: capitalize;
+}
+
+.contactusform p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contactusform textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.contactusform label{
+    font-size: 1.8rem;
+    padding:10px 0 ;
+}
+
+
+.contactusbutton button{
+    background-color: rgba(0, 51, 255, 0.866);
+    margin-top: 17px;
+
+}
+.homeraper2{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.homeimage{
+    width:400px;
+    height:400px;
+    position: relative;
+}
+.homedivsollution{
+  width:100%; 
+  height:100%; 
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeimage img{
+    width:100% ;
+    height:100% ;
+    border-radius: 10px;
+    
+}
+
+.homeimg1textcover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+   
+    
+}
+
+.homeimg1textcover p{
+color: white;
+font-size:1.8rem;
+text-transform: capitalize;
+text-align: center;
+ display: none;
+ 
+}
+
+.homeimg1textcover:hover p{
+    display: block;
+}
+.homebuttone2{
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content:center;
+padding: 20px;
+}
+.homebuttone2 button{
+width: 200px;
+height:100px ;
+
+}
+.hometext3{
+    width:100%;
+    height:150px;
+    
+}
+
+.hometext3 h2,.hometext3 p{
+text-transform: capitalize;
+color: rgb(0, 0, 0);
+font-size: 1.9rem;
+ text-align: center;
+}
+.blogimgcontainer{
+    width:48% ;
+    height:500px;
+}
+.blogcontainercontent{
+    width:48%;
+    height: auto;
+}
