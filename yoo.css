@@ -8,7 +8,10 @@
     
     
 }
-
+.container ul li a{
+   color: rgb(10, 10, 10);
+   text-decoration: none; 
+}
 form{
     width: 50%;
     height: 50%;
@@ -58,6 +61,7 @@ ul li:hover{
     background-color: antiquewhite;
     
 }
+
 
 .home{
     width:100%;
@@ -246,6 +250,11 @@ width: 200px;
 height:100px ;
 
 }
+.homebuttone2 button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
 .hometext3{
     width:100%;
     height:150px;
@@ -271,8 +280,61 @@ font-size: 1.9rem;
     height:auto;
 }
 .serviceconrtainer{
-    width:1000px;
+   max-width:90%;
     height:auto;
     margin: auto;
-    
+}
+.serviceconrtainer h1{
+    font-size:1.8rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.servicecontent{
+    width:100%;
+    height:20%;
+    display: flex;
+    gap:100px ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.servicecard{
+    width:550px;
+    height:400px;
+    background-color: #e8e8ee;
+    padding:5px;
+    margin-bottom:50px;
+}
+.serviceimg{
+    width:100%;
+    height:60%;
+    border-radius:10px;
+}
+.serviceimg img{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+    object-fit:cover;
+}
+.servicecardcontent{
+    width:100%;
+    height:30%;
+}
+.servicecardcontent p{
+    font-size:1.5rem;
+    text-transform: capitalize;
+
+}
+.servicebutton{
+    width:100%;
+    height:20%;
+    border-radius: 10px;
+}
+.servicebutton button{
+    font-size:1.9rem;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.servicebutton button:hover{
+    background-color: rgb(59, 147, 177);
 }
